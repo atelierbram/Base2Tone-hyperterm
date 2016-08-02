@@ -1,0 +1,91 @@
+/* Base2Tone <%- scheme %> Dark colorscheme <%- author %>
+ * HyperTerm template by Bram de Haan (https://github.com/atelierbram/base16-hyperterm) based on HyperTerm-DuoTone-Dark by Wilson Miner (https://github.com/wilsonminer/hyperterm-duotone-dark)
+ */
+
+const backgroundColor = '#<%- base["A0"]["hex"] %>';
+const foregroundColor = '#<%- base["A6"]["hex"] %>';
+const borderColor = 'rgba(0, 0, 0, 0)';
+const cursorColor = '#<%- base["D2"]["hex"] %>'; // opacity set in .termCSS: see under
+
+const colors = [
+  backgroundColor, //  black
+  '#<%- base["B2"]["hex"] %>', //  red
+  '#<%- base["D4"]["hex"] %>', //  green
+  '#<%- base["D7"]["hex"] %>', //  yellow
+  '#<%- base["B3"]["hex"] %>', //  blue
+  '#<%- base["D4"]["hex"] %>', //  magenta
+  '#<%- base["B4"]["hex"] %>', //  cyan
+  '#<%- base["A6"]["hex"] %>', //  white
+  '#<%- base["A3"]["hex"] %>', //  lightBlack
+  '#<%- base["D5"]["hex"] %>', //  lightRed
+  '#<%- base["A1"]["hex"] %>', //  lightGreen
+  '#<%- base["A2"]["hex"] %>', //  lightYellow
+  '#<%- base["A4"]["hex"] %>', //  lightBlue
+  '#<%- base["B6"]["hex"] %>', //  lightMagenta
+  '#<%- base["D3"]["hex"] %>', //  lightCyan
+  '#<%- base["B7"]["hex"] %>'  //  lightWhite
+]
+
+exports.decorateConfig = config => {
+  return Object.assign({}, config, {
+    backgroundColor,
+    foregroundColor,
+    cursorColor: cursorColor,
+    borderColor: borderColor,
+    colors: colors,
+    termCSS: `
+      ${config.termCSS || ''}
+      .cursor-node[focus="true"] {
+         opacity: .33 !important;
+       }
+    `,
+    css: `
+      ${config.css || ''}
+      .header_header {
+        top: 0;
+        right: 0;
+        left: 0;
+      }
+      .tabs_list {
+        background-color: #<%- base["A0"]["hex"] %> !important;
+        border: none !important;
+      }
+      .tab_tab {
+        color: #<%- base["A4"]["hex"] %> !important; 
+        letter-spacing: .5px;
+      }
+      .tab_tab.tab_active {
+        font-weight: 500;
+        letter-spacing: 1px;
+        background-color: #<%- base["A0"]["hex"] %>;
+        border-color: rgba(0, 0, 0, 0) !important;
+        box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.06);
+      }
+      .tab_tab.tab_active::before {
+        border-bottom-color: #<%- base["A0"]["hex"] %>;
+      }
+      .tabs_title,
+      .tab_icon,
+      .tab_tab.tab_active {
+        color: #<%- base["A6"]["hex"] %> !important;
+      }
+      .tab_tab.tab_hasActivity {
+        color: #<%- base["B3"]["hex"] %> !important;
+      }
+      .tab_text {
+        background-color: rgba(0,0,0,.175);
+        border-left: 3px solid #<%- base["A0"]["hex"] %> !important;
+        box-shadow: inset 0px -1px 2px rgba(0,0,0,.075);
+        transition: all .3s;
+      }
+      .tab_tab:hover .tab_text {
+        border-left: 3px solid #<%- base["A0"]["hex"] %> !important;
+      }
+      .tab_tab:hover .tab_text,
+      .tab_active .tab_text {
+        background-color: transparent;
+        box-shadow: none;
+      }
+      `
+  })
+}
