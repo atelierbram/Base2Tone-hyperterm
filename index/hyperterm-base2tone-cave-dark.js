@@ -11,13 +11,13 @@ const colors = [
   backgroundColor, //  black
   '#936c7a', //  red
   '#cca133', //  green
-  '#fce19c', //  yellow
+  '#ffcc4d', //  yellow
   '#9c818b', //  blue
   '#cca133', //  magenta
   '#d27998', //  cyan
   '#9f999b', //  white
   '#635f60', //  lightBlack
-  '#d9c38c', //  lightRed
+  '#ddaf3c', //  lightRed
   '#2f2d2e', //  lightGreen
   '#565254', //  lightYellow
   '#706b6d', //  lightBlue

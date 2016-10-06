@@ -25,6 +25,10 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-cave.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-cave-light.js"
   base16-builder --scheme "db/schemes/base2tone-heath.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-heath-dark.js"
   base16-builder --scheme "db/schemes/base2tone-heath.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-heath-light.js"
+  base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-drawbridge-dark.js"
+  base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-drawbridge-light.js"
+  base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-meadow-dark.js"
+  base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-meadow-light.js"
  }
 
 # execute it

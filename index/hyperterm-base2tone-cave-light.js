@@ -19,7 +19,7 @@ const colors = [
   '#565254', //  lightBlack
   '#e28dab', //  lightRed
   '#b3adaf', //  lightGreen
-  '#d9c38c', //  lightYellow
+  '#ddaf3c', //  lightYellow
   '#d27998', //  lightBlue
   '#c1beb9', //  lightMagenta
   '#f0a8c1', //  lightCyan
