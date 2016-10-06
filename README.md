@@ -21,8 +21,16 @@ Generate DuoTone themes for HyperTerm with Base16-Builder
 ```
 6. Reload HyperTerm by pressing `Cmd + Shft + R`
 
+### NPM
+Two colorschemes found there way into NPM, so the convenient way is to add those to the plugins list in your `~/.hyperterm.js` config file, if you like to.
+- [hyperterm-base2Tone-drawbridge-dark](https://www.npmjs.com/package/hyperterm-base2tone-drawbridge-dark)
+- [hyperterm-duotone-light](https://www.npmjs.com/package/hyperterm-duotone-light)
+
 ### Base16 Builder
 Made with [Base16 Builder](https://github.com/base16-builder/base16-builder), one will need to have Base16 Builder installed from NPM to regenerate the themes, or to create your own from a custom colorscheme. For convenience I use the `io.sh` bash script to output all of the themes to the `index` folder from the commandline with one small command: `io.sh`.
+
+### Resources
+- Preview of how Duotone themes can look like at [Base2Tone](http://base2t.one/)
 
 ### Credits
 - Original colorscheme [Duotone](http://simurai.com/projects/2016/01/01/duotone-themes) theme for Atom by [Simurai](http://simurai.com/).
