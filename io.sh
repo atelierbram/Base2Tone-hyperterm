@@ -29,6 +29,12 @@ overwrite_to_file()
   base16-builder --scheme "db/schemes/base2tone-drawbridge.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-drawbridge-light.js"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-meadow-dark.js"
   base16-builder --scheme "db/schemes/base2tone-meadow.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-meadow-light.js"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-suburb-dark.js"
+  base16-builder --scheme "db/schemes/base2tone-suburb.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-suburb-light.js"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-lavender-dark.js"
+  base16-builder --scheme "db/schemes/base2tone-lavender.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-lavender-light.js"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/hyperterm/dark.ejs" > "index/hyperterm-base2tone-garden-dark.js"
+  base16-builder --scheme "db/schemes/base2tone-garden.yml" --template "db/templates/hyperterm/light.ejs" > "index/hyperterm-base2tone-garden-light.js"
  }
 
 # execute it

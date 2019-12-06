@@ -45,7 +45,7 @@ module.exports = {
 ```
 
 ### Resources
-- Preview of how Duotone themes can look like at [Base2Tone](http://base2t.one/)
+- Preview of how Base2Tone themes can look like at [Base2Tone](http://base2t.one/) and/or [Base2Tone-prism](https://atelierbram.github.io/Base2Tone-prism/demo/evening/dark/)
 - [github.com/andreberg/Meslo-Font](https://github.com/andreberg/Meslo-Font)
 
 ### Credits
@@ -56,4 +56,4 @@ module.exports = {
   - [@alexbooker](https://github.com/bookercodes)
   - [@aloisdg](https://github.com/aloisdg)
 
-Released under [MIT Licence](http://atelierbram.mit-license.org)
+Released under [MIT Licence](https://atelierbram.mit-license.org)

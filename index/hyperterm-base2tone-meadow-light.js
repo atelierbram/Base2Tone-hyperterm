@@ -3,23 +3,23 @@
  */
 
 const backgroundColor = '#fafbf9';
-const foregroundColor = '#94c95e';
+const foregroundColor = '#80bf40';
 const borderColor = 'rgba(0, 0, 0, 0)';
-const cursorColor = '#66a824'; // opacity set in .termCSS: see under
+const cursorColor = '#59931f'; // opacity set in .termCSS: see under
 
 const colors = [
   backgroundColor, //  black
-  '#59981b', //  red
-  '#80c639', //  green
-  '#94c95e', //  yellow
+  '#4d8217', //  red
+  '#73b234', //  green
+  '#80bf40', //  yellow
   '#1b6498', //  blue
-  '#73b82e', //  magenta
+  '#66a329', //  magenta
   '#47adf5', //  cyan
   '#abb1a5', //  white
-  '#305169', //  lightBlack
+  '#335166', //  lightBlack
   '#8dcefc', //  lightRed
-  '#a4c4da', //  lightGreen
-  '#9eec51', //  lightYellow
+  '#7b9eb7', //  lightGreen
+  '#8cdd3c', //  lightYellow
   '#47adf5', //  lightBlue
   '#bdc3b7', //  lightMagenta
   '#afddfe', //  lightCyan
