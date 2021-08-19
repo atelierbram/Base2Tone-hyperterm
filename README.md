@@ -10,13 +10,13 @@ Generate DuoTone themes for Hyper with Base16-Builder
 ### Installation
 
 1. Make a folder in `.hyper_plugins/local/` like for example `hyperterm-base2tone-evening-dark`, and copy the `package.json.txt` and one of your favorite themes from the `index`-folder over there.
-2. Rename `hyperterm-base2tone-evening-dark` to `index.js`
-3. Rename `package.json.txt` and adapt this `package.json` to the choosen theme names.
+2. Rename `hyperterm-base2tone-evening-dark.js` to `index.js`
+3. Rename `package.json.txt` to `package.json` and adapt the content of this `package.json` to the choosen theme names.
 4. Open Hyper's preferences by pressing `Cmd+,` or manually at `~/.hyper.js`.
 5. Find and Update the local-plugins array to one of the themes from the `index` folder.
 ```js
   localPlugins: [
-    'hyperterm-base2tone-drawbridge-dark.js'
+    'hyperterm-base2tone-drawbridge-dark'
   ],
 ```
 6. Reload Hyper by pressing `Cmd + Shft + R`
